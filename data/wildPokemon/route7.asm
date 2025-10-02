@@ -10,8 +10,8 @@ IF DEF(_HARD) ; Difficult Rom
 	db 28,GROWLITHE
 	db 30,VULPIX
 	db 30,GROWLITHE
-	db 29,HOUNDOUR
-	db 30,MURKROW
+	db 29,GROWLITHE
+	db 30,SPEAROW
 
 ; Water Mons
 	db $00
@@ -27,8 +27,8 @@ ELSE ; Normal Rom
 	db 18,GROWLITHE
 	db 20,VULPIX
 	db 20,GROWLITHE
-	db 19,HOUNDOUR
-	db 20,MURKROW
+	db 19,GROWLITHE
+	db 20,SPEAROW
 
 ; Water Mons
 	db $00

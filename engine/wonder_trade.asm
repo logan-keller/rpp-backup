@@ -281,10 +281,10 @@ BannedMons: ; List of Pokemon not allowed to show up in Wonder Trade
 	db MOLTRES
 	db MEWTWO
 	db MEW
-	db LUGIA
-	db LATIOS
-	db LATIAS
-	db HO_OH
+	db ARTICUNO
+	db DRAGONITE
+	db DRAGONITE
+	db MOLTRES
 	db $FF
 
 CheckValidLevel:

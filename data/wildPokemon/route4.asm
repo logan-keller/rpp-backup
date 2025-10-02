@@ -10,7 +10,7 @@ IF DEF(_HARD) ; Difficult Rom
 	db 14,MANKEY
 	db 16,SANDSHREW
 	db 16,SANDSHREW
-	db 16,MURKROW
+	db 16,SPEAROW
 	db 16,JIGGLYPUFF
 
 ; Water Mons
@@ -27,7 +27,7 @@ ELSE ; Normal Rom
 	db 10,MANKEY
 	db 12,SANDSHREW
 	db 12,SANDSHREW
-	db 12,MURKROW
+	db 12,SPEAROW
 	db 12,JIGGLYPUFF
 
 ; Water Mons

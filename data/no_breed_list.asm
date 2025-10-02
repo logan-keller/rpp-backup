@@ -3,10 +3,10 @@ NoBreedList:
 	db ARTICUNO
 	db ZAPDOS
 	db MOLTRES
-	db LUGIA
+	db ARTICUNO
 	db MEWTWO
 	db MEW
-	db LATIAS
-	db LATIOS
-	db HO_OH
+	db DRAGONITE
+	db DRAGONITE
+	db MOLTRES
 	db $FF ; end of list

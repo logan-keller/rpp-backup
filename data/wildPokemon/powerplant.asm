@@ -10,8 +10,8 @@ IF DEF(_HARD) ; Difficult Rom
 	db 52,MAGNETON
 	db 52,ELECTABUZZ
 	db 55,ELECTABUZZ
-	db 56,ELECTIVIRE
-	db 56,MAGNEZONE
+	db 56,ELECTABUZZ
+	db 56,MAGNETON
 
 ; Water Mons
 	db $00
@@ -27,8 +27,8 @@ ELSE ; Normal Rom
 	db 32,MAGNETON
 	db 32,ELECTABUZZ
 	db 35,ELECTABUZZ
-	db 36,ELECTIVIRE
-	db 36,MAGNEZONE
+	db 36,ELECTABUZZ
+	db 36,MAGNETON
 
 ; Water Mons
 	db $00

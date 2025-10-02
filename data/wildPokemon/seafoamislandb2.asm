@@ -11,7 +11,7 @@ IF DEF(_HARD) ; Difficult Rom
 	db 40,SEADRA
 	db 48,SHELLDER
 	db 40,JYNX
-	db 43,SLOWKING
+	db 43,SLOWBRO
 
 ; Water Mons
 	db $00
@@ -28,7 +28,7 @@ ELSE ; Normal Rom
 	db 30,HORSEA
 	db 28,SHELLDER
 	db 30,JYNX
-	db 37,SLOWKING
+	db 37,SLOWBRO
 
 ; Water Mons
 	db $00

@@ -1,14 +1,14 @@
 BabyMonList:
 ; Baby Pokémon cannot breed
-db TOGEPI
-db PICHU
-db CLEFFA
-db IGGLYBUFF
-db TYROGUE
-db SMOOCHUM
-db ELEKID
-db MAGBY
-db MIME_JR
-db HAPPINY
-db MUNCHLAX
+db CLEFAIRY
+db PIKACHU
+db CLEFAIRY
+db JIGGLYPUFF
+db MANKEY
+db JYNX
+db ELECTABUZZ
+db MAGMAR
+db MR_MIME
+db CHANSEY
+db SNORLAX
 db $FF ; end of list
