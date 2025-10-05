@@ -8,10 +8,10 @@ IF DEF(_HARD) ; Difficult Rom
 	db 44,DODUO
 	db 44,GRIMER
 	db 46,DODUO
-	db 43,MURKROW
-	db 44,MURKROW
-	db 45,SLUGMA
-	db 46,SLUGMA
+	db 43,SPEAROW
+	db 44,SPEAROW
+	db 45,MAGMAR
+	db 46,MAGMAR
 
 ; Water Mons
 	db $00
@@ -25,10 +25,10 @@ ELSE ; Normal Rom
 	db 24,DODUO
 	db 24,GRIMER
 	db 26,DODUO
-	db 23,MURKROW
-	db 24,MURKROW
-	db 25,SLUGMA
-	db 26,SLUGMA
+	db 23,SPEAROW
+	db 24,SPEAROW
+	db 25,MAGMAR
+	db 26,MAGMAR
 
 ; Water Mons
 	db $00

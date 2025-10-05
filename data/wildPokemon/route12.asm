@@ -11,7 +11,7 @@ IF DEF(_HARD) ; Difficult Rom
 	db 46,WEEPINBELL
 	db 47,GLOOM
 	db 48,FARFETCHD
-	db 50,BELLOSSOM
+	db 50,VILEPLUME
 	
 ; Water Mons
 	db $03
@@ -38,7 +38,7 @@ ELSE ; Normal Rom
 	db 26,WEEPINBELL
 	db 27,GLOOM
 	db 28,FARFETCHD
-	db 30,BELLOSSOM
+	db 30,VILEPLUME
 	
 ; Water Mons
 	db $03

@@ -137,7 +137,7 @@ ErikaData:
 	db 44,VENUSAUR
 	moveset PETALBLIZARD, LIGHT_SCREEN, TOXIC, RECOVER
 	
-	db 44,TANGROWTH
+	db 44,TANGELA
 	moveset ANCIENTPOWER, WOOD_HAMMER, EARTHQUAKE, SWORDS_DANCE
 	
 	db 45,VICTREEBEL
@@ -174,7 +174,7 @@ SabrinaData:
 	db 55,JYNX
 	moveset PSYCHIC_M, BLIZZARD, LOVELY_KISS, DREAM_EATER
 	
-	db 54,SLOWKING
+	db 54,SLOWBRO
 	moveset PSYCHIC_M, ICE_BEAM, AMNESIA, SHADOW_BALL
 	
 	db 54,HYPNO
@@ -183,7 +183,7 @@ SabrinaData:
 	db 55,ALAKAZAM
 	moveset PSYCHIC_M, SHADOW_BALL, AMNESIA, DAZZLINGLEAM
 	
-	db 56,ESPEON
+	db 56,JOLTEON
 	moveset SHADOW_BALL, PSYCHIC_M, AMNESIA, SIGNAL_BEAM
 	db $FF
 	
@@ -203,7 +203,7 @@ BlaineData:
 	db 65,ARCANINE
 	moveset EXTREMESPEED, BITE, FLARE_BLITZ, SWORDS_DANCE 
 	
-	db 66,MAGMORTAR
+	db 66,MAGMAR
 	moveset FOCUS_ENERGY, FIRE_BLAST, HYPER_BEAM, FIRE_SPIN
 	db $FF
 	
@@ -216,7 +216,7 @@ BlaineData:
 	db 66,GENGAR
 	moveset GLARE, HEX, GUNK_SHOT, DARK_PULSE
 	
-	db 66,STEELIX
+	db 66,ONIX
 	moveset IRON_TAIL, ROCK_SLIDE, BIND, DRAGONBREATH
 	
 	db 67,NIDOQUEEN
@@ -225,7 +225,7 @@ BlaineData:
 	db 68,NIDOKING
 	moveset DOUBLE_KICK, EARTHQUAKE, POISON_JAB, ICE_BEAM
 	
-	db 67,RHYPERIOR
+	db 67,RHYDON
 	moveset ROCK_SLIDE, MEGAHORN, SURF, EARTHQUAKE
 	
 	db 67,TAUROS
@@ -237,7 +237,7 @@ GiovanniData:
 	db "Giovanni@"
 	db SPECIAL_TRAINER
 	
-	db 47,STEELIX
+	db 47,ONIX
 	moveset IRON_TAIL, ROCK_SLIDE, BIND, DRAGONBREATH
 	
 	db 46,DUGTRIO
@@ -264,7 +264,7 @@ GiovanniData:
 	db 55,PERSIAN
 	moveset CRUNCH, SLASH, POWER_GEM, SHADOW_CLAW
 	
-	db 54,STEELIX
+	db 54,ONIX
 	moveset IRON_TAIL, ROCK_SLIDE, BIND, DRAGONBREATH
 	
 	db 55,NIDOQUEEN
@@ -290,7 +290,7 @@ LoreleiData:
 	db 78,VAPOREON
 	moveset SURF, AURORA_BEAM, ACID_ARMOR, MUD_SLAP
 	
-	db 76,SLOWKING
+	db 76,SLOWBRO
 	moveset AMNESIA, POWER_GEM, PSYCHIC_M, ICE_BEAM
 	
 	db 77,JYNX
@@ -304,7 +304,7 @@ BrunoData:
 	db "Bruno@"
 	db SPECIAL_TRAINER
 	
-	db 78,STEELIX
+	db 78,ONIX
 	moveset IRON_TAIL, ROCK_SLIDE, EARTHQUAKE, IRON_DEFENSE
 	
 	db 77,HITMONCHAN
@@ -324,16 +324,16 @@ AgathaData:
 	db "Agatha@"
 	db SPECIAL_TRAINER
 	
-	db 79,MISDREAVUS
+	db 79,GASTLY
 	moveset GLARE, HEX, THUNDERBOLT, AMNESIA
 	
-	db 78,HONCHKROW
+	db 78,FEAROW
 	moveset ACROBATICS, HEX, FEINT_ATTACK, HEALINGLIGHT
 	
-	db 78,HOUNDOOM
+	db 78,ARCANINE
 	moveset SHADOW_BALL, FIRE_FANG, HEX, CRUNCH
 	
-	db 78,MISMAGIUS
+	db 78,HAUNTER
 	moveset GLARE, HEX, POWER_GEM, PSYCHIC_M
 	
 	db 77,GENGAR
@@ -350,7 +350,7 @@ LanceData:
 	db 80,CHARIZARD
 	moveset BLAST_BURN, DRAGONBREATH, AERIAL_ACE, METAL_CLAW
 	
-	db 79,KINGDRA
+	db 79,SEADRA
 	moveset WHIRLPOOL, DRAGONBREATH, FOCUS_ENERGY, HYPER_BEAM
 	
 	db 80,AERODACTYL
@@ -711,7 +711,7 @@ Green3Data:
 	db 79,ALAKAZAM
 	moveset PSYCHIC_M, SHADOW_BALL, REFLECT, RECOVER
 	
-	db 80,RHYPERIOR
+	db 80,RHYDON
 	moveset EARTHQUAKE, MEGAHORN, ROCK_BLAST, TAKE_DOWN
 	
 	db 80,ARCANINE
@@ -735,7 +735,7 @@ Green3Data:
 	db 79,ALAKAZAM
 	moveset PSYCHIC_M, SHADOW_BALL, REFLECT, RECOVER
 	
-	db 80,RHYPERIOR
+	db 80,RHYDON
 	moveset EARTHQUAKE, MEGAHORN, ROCK_BLAST, TAKE_DOWN
 	
 	db 80,ARCANINE
@@ -759,7 +759,7 @@ Green3Data:
 	db 79,ALAKAZAM
 	moveset PSYCHIC_M, SHADOW_BALL, REFLECT, RECOVER
 	
-	db 80,RHYPERIOR
+	db 80,RHYDON
 	moveset EARTHQUAKE, MEGAHORN, ROCK_BLAST, TAKE_DOWN
 	
 	db 80,ARCANINE
@@ -773,7 +773,7 @@ Green3Data:
 	db $FF
 	
 YoungsterData: ; COMPLETED
-	db "Ben@",14,ZIGZAGOON,RATTATA,$FF ; ROUTE3 #3
+	db "Ben@",14,RATICATE,RATTATA,$FF ; ROUTE3 #3
 	db "Arnold@",14,SPEAROW,SANDSHREW,$FF ; ROUTE3 #5
 	db "Anthony@",16,RATTATA,MACHOP,ZUBAT,$FF ; #MTMOON #6
 	db "Samuel@",20,RATICATE,ARBOK,GOLBAT,$FF ; NUGGET BRIDGE #4
@@ -783,7 +783,7 @@ YoungsterData: ; COMPLETED
 	db "Chad@",25,NIDORINO,$FF ;  SS_ANNE
 	db "Dan@",25,EKANS,KOFFING,$FF ; Route 12 1
 	db "Dave@",26,SANDSHREW,ZUBAT,$FF ; Route 12 2u
-	db "Josh@",26,ZIGZAGOON,LINOONE,$FF ; Route 12 6u
+	db "Josh@",26,RATICATE,RATICATE,$FF ; Route 12 6u
 	db "Timmy@",26,NIDORAN_M,NIDORINO,$FF ; Route 12 2d
 	db "Nash@",23,SPEAROW,RATTATA,RATTATA,SPEAROW,$FF ; 					UNKNOWN
 	
@@ -814,7 +814,7 @@ LassData: ; COMPLETED
 	db "Monica@",20,NIDORINA,WIGGLYTUFF,$FF ; Nuggetbridge 4
 	db "Lulu@",23,NIDORINO,NIDORINA,$FF ; Route25 4
 	db "Brooke@",23,ODDISH,PIDGEOTTO,$FF ; Route25 8
-	db "Rose@",25,TOGETIC,ESPEON,$FF ; SSANNE
+	db "Rose@",25,CLEFABLE,JOLTEON,$FF ; SSANNE
 	db "Martha@",25,RATTATA,PIKACHU,$FF ; 	SSANNE
 	db "Amanda@",36,NIDOQUEEN,$FF ; Route 8 4t
 	db "Meadow@",36,PERSIAN,PIDGEOT,$FF ; Route 8 4t
@@ -840,10 +840,10 @@ CamperData:
 	db "Ronald@",25,DITTO,MEOWTH,$FF ; Route 6 1
 	db "Mark@",25,SPEAROW,DODUO,$FF ; Route 6 5
 	db "Mike@",26,DIGLETT,DIGLETT,SANDSHREW,$FF ;                          UNKNOWN
-	db "Nick@",32,GROWLITHE,HOUNDOUR,$FF ; Route 9 3u
+	db "Nick@",32,GROWLITHE,GROWLITHE,$FF ; Route 9 3u
 	db "Robert@",32,RATICATE,DUGTRIO,ARBOK,SANDSLASH,$FF ; Route 9 4rl
 	db "Ian@",53,NIDOKING,$FF ; Route 13 R4
-	db "Flint@",23,ZIGZAGOON,EKANS,$FF ; Route 24 1
+	db "Flint@",23,RATICATE,EKANS,$FF ; Route 24 1
 	
 PicnickerData: ; COMPLETED
 	db "Cindy@",25,GOLDEEN,$FF ; Cerulean City GYM
@@ -882,7 +882,7 @@ PokemaniacData: ; COMPLETED
 	
 SuperNerdData: ; COMPLETED
 	db "Teru@",17,MAGNEMITE,VOLTORB,$FF ; MT Moon RDL
-	db "Eric@",20,RAICHU,UMBREON,$FF ; MT MOON ENDBOSS
+	db "Eric@",20,RAICHU,VAPOREON,$FF ; MT MOON ENDBOSS
 	db "Markus@",36,ELECTRODE,MAGNETON,ELECTABUZZ,$FF ;	Route 8 6
 	db "Alan@",36,MUK,$FF ; Route 8 3
 	db "Derek@",36,WEEZING,$FF ; Route8 4t
@@ -901,10 +901,10 @@ HikerData: ; COMPLETED
 	db "Michael@",23,GEODUDE,ONIX,$FF ; Route 25 2d
 	db "Trent@",33,GRAVELER,ONIX,$FF ; Route 9 3rb
 	db "Clark@",34,GRAVELER,MACHOKE,$FF ; Route 9 4ru
-	db "Lenny@",36,MACHOKE,STEELIX,$FF ; route 9 2
-	db "Jay@",36,STEELIX,GOLEM,$FF ; ROCKTUNNEL OUTSIDE
-	db "Bryan@",35,STEELIX,$FF ; Rocktunnel 6
-	db "Lucas@",35,SKARMORY,$FF ; rocktunnel 5l
+	db "Lenny@",36,MACHOKE,ONIX,$FF ; route 9 2
+	db "Jay@",36,ONIX,GOLEM,$FF ; ROCKTUNNEL OUTSIDE
+	db "Bryan@",35,ONIX,$FF ; Rocktunnel 6
+	db "Lucas@",35,FEAROW,$FF ; rocktunnel 5l
 	db "George@",33,AERODACTYL,$FF ; rpcltunnel 5u
 	db "Devan@",36,MACHAMP,$FF ; Rocktunnel 6
 	db "Steve@",36,KABUTO,OMANYTE,$FF ; Rocktunnel 7
@@ -914,33 +914,33 @@ BikerData: ; COMPLETED
 	db "Charles@",52,WEEZING,MUK,ARBOK,$FF ; Route 14
 	db "Glenn@",53,RHYHORN,RHYDON,$FF ; Route 14 2l
 	db "Dwayne@",54,WEEZING,MUK,$FF ; Route 15 6
-	db "Joel@",54,MUK,MAGCARGO,$FF ; Route 15 5
+	db "Joel@",54,MUK,MAGMAR,$FF ; Route 15 5
 	db "Kyle@",52,MUK,WEEZING,$FF ; Route 16 1
 	db "Billy@",53,DITTO,$FF ; Route 16 4b
 	db "Alex@",52,MUK,MUK,$FF ; Route 16 5
 	db "Isaac@",53,WEEZING,WEEZING,$FF ; Cyclingroad 1
 	db "Jacob@",53,MUK,$FF ; Cyclingroad 2
 	db "Wesley@",53,ELECTRODE,MAGNETON,$FF ; Cyclingroad 3
-	db "Logan@",54,HOUNDOOM,HONCHKROW,$FF ; Cyclingroad 4
+	db "Logan@",54,ARCANINE,FEAROW,$FF ; Cyclingroad 4
 	db "Jared@",54,WEEZING,WEEZING,$FF ; Cyclingroad Bottom
 	db "Rick@",53,MUK,WEEZING,$FF ; Route 14 3l
-	db "Jimmy@",53,MAGCARGO,WEEZING,$FF ; Route 14 1l
-	db "Reggie@",53,MURKROW,MUK,$FF ; Route 14 2r
+	db "Jimmy@",53,MAGMAR,WEEZING,$FF ; Route 14 1l
+	db "Reggie@",53,SPEAROW,MUK,$FF ; Route 14 2r
 	
 BurglarData: ; COMPLETED
 	db "Arnie@",29,GROWLITHE,VULPIX,$FF ;                                UNKNOWN
 	db "Dusty@",33,GROWLITHE,$FF ;                                       UNKNOWN
 	db "Paul@",28,VULPIX,CHARMANDER,PONYTA,$FF ;                        UNKNOWN
 	db "Simon@",60,ARCANINE,NINETALES,$FF ; CINNABAR GYM 1
-	db "Darryl@",61,TORKOAL,FLAREON,$FF ; CINNABAR GYM 4
+	db "Darryl@",61,CHARIZARD,FLAREON,$FF ; CINNABAR GYM 4
 	db "Corey@",61,NINETALES,ARCANINE,$FF ; CINNABAR GYM 6
 	db "Eddie@",57,CHARIZARD,$FF ; PKMNMANSION 2 1
 	db "Duncan@",58,NINETALES,$FF ; PKMNMANSION 2 E
-	db "Isaiah@",58,HOUNDOOM,RAPIDASH,$FF ; PKMNMANSION B 1
+	db "Isaiah@",58,ARCANINE,RAPIDASH,$FF ; PKMNMANSION B 1
 	
 EngineerData: ; COMPLETED
 	db "Bernie@",21,MAGNEMITE,PIKACHU,$FF ;                              UNKNOWN
-	db "Flint@",21,MAGNETON,LANTURN,$FF ; route 11 4u
+	db "Flint@",21,MAGNETON,MAGNETON,$FF ; route 11 4u
 	db "Jack@",21,MAGNETON,RAICHU,$FF ; route 11 5
 
 CoupleData: ; COMPLETED
@@ -974,7 +974,7 @@ SwimmerData: ; COMPLETED
 	db "Ross@",56,SEADRA,TENTACRUEL,$FF ; Route 21 4B
 	db "Perry@",56,STARMIE,$FF ; Route 21 2R
 	db "Ryan@",55,STARMIE,BLASTOISE,$FF ; Route 21 1L
-	db "Ben@",55,CHINCHOU,LANTURN,STARMIE,$FF ; Route 21 1R
+	db "Ben@",55,MAGNEMITE,MAGNETON,STARMIE,$FF ; Route 21 1R
 	db "Josiah@",56,TENTACRUEL,TENTACRUEL,$FF ; Route 21 4T
 	
 CueBallData: ; COMPLETED
@@ -998,7 +998,7 @@ GamblerData: ; COMPLETED
 	
 SwimmerFData:
 BeautyData: ; COMPLETED
-	db "Charlotte@",41,ODDISH,GLOOM,BELLOSSOM,$FF ; CELADON GYM 2
+	db "Charlotte@",41,ODDISH,GLOOM,VILEPLUME,$FF ; CELADON GYM 2
 	db "Beth@",42,VICTREEBEL,$FF ; CELADON GYM L
 	db "Selena@",42,EXEGGCUTE,EXEGGUTOR,$FF ; CELADON GYM LI
 	db "Ariana@",52,RATICATE,$FF ; Route 13 FRTR
@@ -1020,8 +1020,8 @@ BeautyData: ; COMPLETED
 PsychicData: ; COMPLETED
 	db "Yuri@",51,ABRA,KADABRA,ALAKAZAM,$FF ; SAFFRON Gym RT
 	db "Teru@",51,MR_MIME,ALAKAZAM,$FF ; Saffron GYM RM
-	db "Kio@",50,SLOWPOKE,SLOWBRO,SLOWKING,$FF ; Saffron GYM 1
-	db "Rhen@",52,SLOWKING,$FF ; SAFFRON GYM LT
+	db "Kio@",50,SLOWPOKE,SLOWBRO,SLOWBRO,$FF ; Saffron GYM 1
+	db "Rhen@",52,SLOWBRO,$FF ; SAFFRON GYM LT
 	
 RockerData: ; COMPLETED
 	db "Debbie@",CUSTOM_PIC,ROCKER_F,35,VOLTORB,ELECTRODE,$FF ; LT LURGE GYM
@@ -1034,8 +1034,8 @@ JugglerData: ; COMPLETED
 	db "Liam@",56,MUK,TENTACRUEL,WEEZING,$FF ; FUSIA GYM 4M
 	db "Cloyd@",64,MR_MIME,$FF ; VICTORYROAD 2 4
 	db "Derek@",53,HYPNO,$FF ;                                  UNKNOWN
-	db "Will@",55,CROBAT,MUK,$FF ; FUSIA GYM 1R
-	db "Shawn@",55,CROBAT,WEEZING,MUK,$FF ; FUSIA GYM 1L
+	db "Will@",55,GOLBAT,MUK,$FF ; FUSIA GYM 1R
+	db "Shawn@",55,GOLBAT,WEEZING,MUK,$FF ; FUSIA GYM 1L
 	
 TamerData: ; COMPLETED
 	db "Cole@",56,NIDOKING,ARBOK,$FF ; FUSIA GYM 4TL
@@ -1047,7 +1047,7 @@ TamerData: ; COMPLETED
 	
 BirdKeeperData: ; COMPLETED
 	db "Rod@",53,PIDGEOT,$FF ; Route 13 R 2
-	db "Abe@",53,FEAROW,PIDGEOTTO,PIDGEOT,FEAROW,HONCHKROW,$FF  ;             UNKNOWN
+	db "Abe@",53,FEAROW,PIDGEOTTO,PIDGEOT,FEAROW,FEAROW,$FF  ;             UNKNOWN
 	db "Bob@",52,PIDGEOT,FEAROW,$FF ; Route 13 LB
 	db "Hank@",53,FARFETCHD,$FF ; Route 14 1R
 	db "Bret@",54,FEAROW,$FF ; Route 15 8
@@ -1060,9 +1060,9 @@ BirdKeeperData: ; COMPLETED
 	db "Jeff@",39,PIDGEOTTO,PIDGEOTTO,PIDGEY,PIDGEOTTO,$FF ;             UNKNOWN 
 	db "Troy@",52,FARFETCHD,FEAROW,$FF ;                                UNKNOWN
 	db "Kevin@",52,DODRIO,PIDGEOT,$FF ;                        UNKNOWN / somewhere on route 13
-	db "Jim@",52,MURKROW,FEAROW,$FF ; Route 13 LB
+	db "Jim@",52,SPEAROW,FEAROW,$FF ; Route 13 LB
 	db "Eric@",53,PIDGEOT,FEAROW,$FF ; Route 14 4R
-	db "Chris@",53,MURKROW,FEAROW,$FF ; Route 14 3R
+	db "Chris@",53,SPEAROW,FEAROW,$FF ; Route 14 3R
 	
 BlackbeltData: ; COMPLETED
 	db "Kenji@",50,HITMONLEE,HITMONCHAN,$FF ; Blackbelt leader
@@ -1081,19 +1081,19 @@ GentlemanData: ; COMPLETED
 	db "Preston@",35,RAICHU,$FF ; VERMILLION GYM
 	db "Gregory@",48,PRIMEAPE,$FF ;                                         	UNKNOWN
 	db "Howard@",25,GROWLITHE,PONYTA,$FF ; SSANNE	
-	db "Nathan@",25,HOUNDOUR,$FF ; SSANNE
+	db "Nathan@",25,GROWLITHE,$FF ; SSANNE
 	
 ChannelerData: ; COMPLETED
 	db "Amelia@",38,GASTLY,$FF ; PKMNTOWER
 	db "Selene@",39,GASTLY,$FF
-	db "Karina@",38,MISDREAVUS,HAUNTER,$FF
+	db "Karina@",38,GASTLY,HAUNTER,$FF
 	db "Hope@",39,HAUNTER,$FF
 	db "Stacy@",38,HAUNTER,$FF
 	db "Gwen@",39,GASTLY,$FF
 	db "Mary@",38,HAUNTER,$FF ; PKMNTOWER
 	db "Jane@",39,GASTLY,$FF
 	db "Carly@",39,HAUNTER,$FF
-	db "Trixie@",40,GENGAR,MISDREAVUS,$FF
+	db "Trixie@",40,GENGAR,GASTLY,$FF
 	db "Jodie@",39,GENGAR,$FF
 	db "Faith@",38,GENGAR,$FF
 	db "Alice@",38,GENGAR,$FF
@@ -1101,7 +1101,7 @@ ChannelerData: ; COMPLETED
 	db "Holly@",39,GENGAR,$FF ; PKMNTOWER
 	db "Cindy@",39,GENGAR,$FF
 	db "Grace@",40,GENGAR,$FF
-	db "Rei@",40,MISDREAVUS,$FF
+	db "Rei@",40,GASTLY,$FF
 	db "Leah@",39,GASTLY,HAUNTER,GENGAR,$FF
 	db "Eve@",40,GENGAR,$FF
 	db "Cassie@",40,GENGAR,$FF ; PKMNTOWER
@@ -1115,7 +1115,7 @@ ScientistData: ; COMPLETED
 	db "Taylor@",46,MAGNETON,WEEZING,$FF ; SILPHCO 5 L
 	db "Nick@",46,ELECTRODE,MAGNETON,$FF ; SILPHCO 6 M
 	db "Kevin@",46,ELECTRODE,MUK,$FF ; SILPHCO 7 BL
-	db "Howie@",47,HONCHKROW,DRAGONITE,$FF ; SILPHCO 8 T
+	db "Howie@",47,FEAROW,DRAGONITE,$FF ; SILPHCO 8 T
 	db "Brian@",47,ELECTRODE,MAGNETON,$FF ; SILPHCO 9 R
 	db "Alex@",47,MAGNETON,ELECTABUZZ,$FF ; SILPHCO 10 1
 	db "Justin@",57,MAGNETON,JOLTEON,$FF ; PKMNMANSION 3 R
@@ -1131,7 +1131,7 @@ RocketData: ; COMPLETED
 	db 18,RATTATA
 	moveset BITE, QUICK_ATTACK, FOCUS_ENERGY, HYPER_FANG
 	
-	db 19,MURKROW
+	db 19,SPEAROW
 	moveset WING_ATTACK, QUICK_ATTACK, STEEL_WING, SHADOW_BALL
 	db $FF
 
@@ -1152,9 +1152,9 @@ RocketData: ; COMPLETED
 	db "James@",CUSTOM_PIC,JAMES,43,WEEZING,VICTREEBEL,$FF ; GC B4 James Battle
 	db "Jessie@",CUSTOM_PIC,JESSIE,43,ARBOK,LICKITUNG,$FF ; GC B4 Jessie Battle
 	db "Grunt@",43,WEEZING,MUK,GOLBAT,$FF ; GC B4
-	db "Grunt@",50,CROBAT,$FF ; PKMNTOWER 1
+	db "Grunt@",50,GOLBAT,$FF ; PKMNTOWER 1
 	db "Grunt@",50,WEEZING,HYPNO,$FF ; PKMNTOWER 2
-	db "Executive@",CUSTOM_PIC,EXECUTIVE_M,50,HOUNDOOM,HONCHKROW,WEEZING,$FF ; PKMNTOWER 3
+	db "Executive@",CUSTOM_PIC,EXECUTIVE_M,50,ARCANINE,FEAROW,WEEZING,$FF ; PKMNTOWER 3
 	db "Grunt@",46,HYPNO,WEEZING,$FF ;                                     UNKNOWN
 	db "Grunt@",45,MAROWAK,GOLBAT,$FF ; SILPH 2 C
 	db "Grunt@",45,GOLBAT,RATICATE,$FF ; SILPH 2 1
@@ -1199,9 +1199,9 @@ AceTrainerFData: ; COMPLETED
 	db "Anna@",43,PERSIAN,NINETALES,RAICHU,$FF ;                            UNKNOWN
 	
 HexManiacData:
-	db "Alice@",51,GENGAR,MISDREAVUS,$FF ; SAFFRON GYM
-	db "Luna@",52,GENGAR,MISDREAVUS,$FF ; SAFFRON GYM
-	db "Carrie@",53,GENGAR,MISDREAVUS,$FF ; SAFFRON GYM
+	db "Alice@",51,GENGAR,GASTLY,$FF ; SAFFRON GYM
+	db "Luna@",52,GENGAR,GASTLY,$FF ; SAFFRON GYM
+	db "Carrie@",53,GENGAR,GASTLY,$FF ; SAFFRON GYM
 
 PkmnTrainerData:
     db "Flannery@"
@@ -1209,13 +1209,13 @@ PkmnTrainerData:
 	db FLANNERY ; pic
 	db AI_FULL_RESTORE ; AI
 	
-	db 54,SLUGMA
+	db 54,MAGMAR
 	moveset FLAME_WHEEL, SMOG, LIGHT_SCREEN, HAZE
 	
-	db 55,SLUGMA
+	db 55,MAGMAR
 	moveset FLAMETHROWER, ROCK_SLIDE, LIGHT_SCREEN, HARDEN
 	
-	db 57,TORKOAL
+	db 57,CHARIZARD
 	moveset FLAMETHROWER, BODY_SLAM, WITHDRAW, HEX
 	db $FF
 	
@@ -1226,7 +1226,7 @@ PkmnTrainerData:
 	db JANINE ; pic
 	db AI_X_ATTACK
 	
-	db 64,CROBAT
+	db 64,GOLBAT
 	moveset WING_ATTACK, CONFUSE_RAY, SUPERSONIC, SCREECH
 	
 	db 64,WEEZING

@@ -52,7 +52,7 @@ NavelRockLugiaRoomText2:
 NavelRockLugiaRoomLugiaText:
 	TX_FAR _NavelRockLugiaRoomLugiaText
 	TX_ASM
-	ld a, LUGIA
+	ld a, ARTICUNO
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
@@ -60,7 +60,7 @@ NavelRockLugiaRoomLugiaText:
 NavelRockLugiaRoomHoohText:
 	TX_FAR _NavelRockLugiaRoomHoohText
 	TX_ASM
-	ld a, HO_OH
+	ld a, MOLTRES
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

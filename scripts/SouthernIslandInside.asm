@@ -53,7 +53,7 @@ SouthernIslandInsideText2:
 SouthernIslandInsideLatiosText:
 	TX_FAR _SouthernIslandInsideLatiText
 	TX_ASM
-	ld a, LATIOS
+	ld a, DRAGONITE
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
@@ -61,7 +61,7 @@ SouthernIslandInsideLatiosText:
 SouthernIslandInsideLatiasText:
 	TX_FAR _SouthernIslandInsideLatiText
 	TX_ASM
-	ld a, LATIAS
+	ld a, DRAGONITE
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
